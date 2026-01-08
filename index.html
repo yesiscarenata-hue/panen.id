@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panen.id - Solusi Pertanian Modern</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="images/image-removebg-preview (2).png" class="logo-navbar">
+        <span class="ms-2">Panen.id</span>
+    </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+                <li><a class="nav-link active" href="index.html">Beranda</a></li>
+                <li><a class="nav-link" href="about.html">Tentang Kami</a></li>
+                <li><a class="nav-link" href="services.html">Produk</a></li>
+                <li><a class="nav-link" href="gallery.html">Galeri</a></li>
+                <li><a class="nav-link" href="contact.html">Kontak</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO SLIDER -->
+<section class="hero-slider">
+
+    <div id="heroCarousel"
+         class="carousel slide carousel-fade"
+         data-bs-ride="carousel"
+         data-bs-interval="3000">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active"
+                 style="background-image: url('images/kebunbig.jpg');">
+            </div>
+
+            <div class="carousel-item"
+                 style="background-image: url('images/slide2.jpg');">
+            </div>
+
+            <div class="carousel-item"
+                 style="background-image: url('images/slide3.jpg');">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- TEXT OVERLAY -->
+    <div class="hero-overlay">
+        <h1 class="display-4 fw-bold">
+            Selamat <span id="greeting"></span>
+        </h1>
+
+        <h2 class="fw-bold hero-brand">
+            Selamat Datang di <span>Panen.id</span>
+        </h2>
+
+        <p class="mt-3 hero-desc">
+            Kami membantu petani Indonesia meningkatkan produktivitas melalui teknologi,
+            edukasi, dan distribusi hasil pertanian berkualitas.
+        </p>
+
+        <div class="mt-4">
+            <a href="about.html" class="btn btn-hero-outline">
+                Pelajari Lebih Lanjut
+            </a>
+        </div>
+    </div>
+
+</section>
+
+<!-- PROFIL SINGKAT -->
+<section class="container mt-5">
+    <h2 class="section-title">Profil Singkat</h2>
+
+    <p class="text-center w-75 mx-auto">
+        Panen.id adalah platform agritech yang berkomitmen untuk memajukan sektor pertanian Indonesia.
+        Dengan pendekatan modern dan berbasis teknologi, kami menyediakan solusi yang mempermudah petani 
+        dalam proses produksi hingga pemasaran hasil panen.
+    </p>
+</section>
+
+<!-- KEUNGGULAN -->
+<section class="container mt-5">
+    <h2 class="section-title">Keunggulan Kami</h2>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card p-4 text-center"style="background-color:#122b17 ; color: aliceblue; border: 1px solid #1c5c2c;">
+                <h4 class="fw-bold text-success">Teknologi Modern</h4>
+                <p>Pemanfaatan data & teknologi untuk meningkatkan kualitas panen.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-4 text-center"style="background-color:#122b17 ; color: aliceblue; border: 1px solid #1c5c2c;">
+                <h4 class="fw-bold text-success">Jaringan Luas</h4>
+                <p>Berkolaborasi dengan petani & distributor di berbagai daerah.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-4 text-center"style="background-color:#122b17 ; color: aliceblue; border: 1px solid #1c5c2c;">
+                <h4 class="fw-bold text-success">Tim Profesional</h4>
+                <p>Ahli pertanian dan teknologi siap membantu perkembangan petani.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PREVIEW PRODUK / LAYANAN -->
+<section class="container mt-5">
+    <h2 class="section-title">Produk & Layanan</h2>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card p-3 text-center"style="background-color:#122b17 ; color: aliceblue; border: 1px solid #1c5c2c;">
+                <h5 class="fw-bold">Produk Organik</h5>
+                <p>Sayur & buah segar dari petani lokal berkualitas premium.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3 text-center"style="background-color:#122b17 ; color: aliceblue; border: 1px solid #1c5c2c;">
+                <h5 class="fw-bold">Distribusi Hasil Panen</h5>
+                <p>Jaringan distribusi yang memudahkan pemasaran produk petani.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3 text-center"style="background-color:#122b17 ; color: aliceblue;border: 1px solid #1c5c2c;">
+                <h5 class="fw-bold">Edukasi Pertanian</h5>
+                <p>Pelatihan dan pendampingan menuju pertanian modern efisien.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="services.html" class="btn btn-green">Lihat Detail Produk</a>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="container text-center mt-5 mb-5">
+    <h2 class="section-title">Siap Bekerja Sama?</h2>
+    <p>Hubungi kami untuk konsultasi dan informasi lebih lanjut.</p>
+    <a href="contact.html" class="btn btn-green btn-lg">Hubungi Kami</a>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center">
+    <p>© 2026 Panen.id — Solusi Pertanian Modern.</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
